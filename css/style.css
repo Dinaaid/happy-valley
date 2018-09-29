@@ -1,0 +1,181 @@
+body {
+    margin: 0;
+    background-color: #CFB9D9;
+}
+
+nav {
+    z-index: 1;
+    top: 30px;
+    left: 150px;
+    position: fixed;
+    background-color: none; 
+    display: block;
+}
+
+nav ul {
+    margin: 0px;
+    padding: 0px;
+}
+
+nav img {
+    height: auto;
+    max-width: 151px;
+
+}
+nav li {
+    list-style: none;
+    margin-top: 10px;
+    display: block;
+}
+
+#page1 {
+    background-image: url('../assets/master-u583.png');
+    background-position: left top;
+    position: relative;
+    height: 500px;
+    max-width: 100%;
+    background-color: #DEB8E9;
+    border: none;
+    border-bottom: 0px;
+}
+
+.balloon1 {
+    z-index: 3;
+    top: 10%;
+    left: 40%;
+    position: absolute;
+    display: block;
+}
+
+.balloon1 img {
+   max-width: 240px;
+    height: 280px;
+}
+
+.cloud1 {
+    top: -60px; 
+    vertical-align: top; 
+    z-index: 2;
+    position: absolute;
+    left: 50%;
+}
+
+.cloud1 img {
+    height: 350px;
+    max-width: 350px;    
+}
+
+.background {
+    background-image: url('../assets/background.png');
+    background-repeat: repeat-x;
+    background-position: left ;
+    z-index: 100;
+    bottom: -5px;
+    position: fixed;
+    height: 200px;
+    width: 100%;
+}
+
+.background img {
+    padding: 0px;
+    height: 150px;
+    margin-left: 300px; 
+    bottom: -5px;
+}
+
+.balloon2 {
+    z-index: 4;
+    top: 20px;
+    position: absolute;
+    left: 70%;
+}
+
+.balloon2 img{
+    height: 200px;
+    max-width: auto;
+}
+
+.cloud2 img {
+    z-index: 5;
+    position: absolute;
+    left: 75%;
+    top: 15%
+}
+
+.cloud3 img {
+    z-index: 6;
+    position: absolute;
+    top: 50%;
+    left: 70%;
+    height: 200px;
+}
+
+.balloon3 img {
+    z-index: 7;
+    position: absolute;
+    top: 60%;
+    left: 70%;
+    height: 80px;
+}
+
+.cloud4 img {
+    z-index: 8;
+    position: absolute;
+    top: 70%;
+    left: 40%;
+    height: 400px;
+}
+
+#page2 {
+    background-image: url('../assets/master-u584.png');
+    background-position: left top;
+    height: 500px;
+    max-width: 100%;
+    border: 0px;
+    border-radius: 0px;
+    background-color: #D1EEF4;
+    position: relative;
+}
+
+.cloud5 img {
+    z-index: 9;
+    position: absolute;
+    top: -50px;
+    left: 75%;
+    height: 150px;
+}
+
+.cloud6 img {
+    z-index: 11;
+    position: absolute;
+    top: 35%;
+    left: 70%;
+    height: 200px;
+}
+
+.balloon4 img {
+    z-index: 10;
+    position: absolute;
+    top: 60%;
+    left: 85%;
+    height: auto;
+
+}
+
+h1 {
+    margin: 0px;
+}
+
+.services {
+    z-index: 12;
+    position: absolute;
+    top: 55%;
+    left: 40%;
+    max-width: 300px;
+    font-size: medium;
+}
+
+#page3 {
+    background-image: url('../assets/master-u582.png');
+    height: 600px;
+}
